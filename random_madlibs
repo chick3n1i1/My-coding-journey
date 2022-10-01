@@ -1,1 +1,6 @@
+from sample_madlibs import hp, zombie, hungergames
+import random
 
+if __name__ == "__main__":
+    m = random.choice({random.choice[hp, zombie, hungergames])
+    m.madlib()
