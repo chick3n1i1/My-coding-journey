@@ -11,5 +11,5 @@ rock_paper_scissors.py: rock paper scissors (practice with functions and if stat
 
 hangman.py: classic word guessing game that allows players to take turns guessing letters to spell the word. Imported a word bank of +2,000 words
 
-slotmachine.py: complex game that takes a deposit input from the user and keeps track of that balance (adding winnings and subtracting losses) this will allow the user to place bets up to 3 lines. 
+slot_machine.py: complex game that takes a deposit input from the user and keeps track of that balance (adding winnings and subtracting losses) this will allow the user to place bets up to 3 lines. 
   NOTE: the odds are adjustable and easily configurable based on the desire of the program. 
