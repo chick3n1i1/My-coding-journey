@@ -1,3 +1,4 @@
+import time
 from player import HumanPlayer, RandomComputerPlayer
 
 
@@ -15,7 +16,7 @@ class TicTacToe:
     @staticmethod
     def print_board_nums():
         # 0 | 1 | 2 etc (tells us what number corresponds to what box)
-        number_board = [[stri(i) for i in range(j*3, (j+1)*3)]
+        number_board = [[str(i) for i in range(j*3, (j+1)*3)]
                         for j in range(3)]
         for row in number_board:
             print('| ' + ' | '.join(row) + ' |')
@@ -101,8 +102,11 @@ def play(game, x_player, o_player, print_game=True):
             # after we made our move, we need to alternate letters
             letter = 'O' if letter == 'X' else 'X'  # switches player
 
-        if print_game:
-            print('It\'s a draw!')
+        # tiny break inbetween the players move and the computers
+        time.sleep(0.8)
+
+    if print_game:
+        print('It\'s a draw!')
 
 
 if __name__ == "__main__":
