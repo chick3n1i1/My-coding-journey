@@ -1,7 +1,7 @@
 import pygame
 pygame.init()
 
-
+# settings for size, text, color, etc.
 WIDTH, HEIGHT = 700, 500
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Pong")
@@ -16,6 +16,8 @@ BALL_RADIUS = 7
 
 SCORE_FONT = pygame.font.SysFont("comicsans", 50)
 WINNING_SCORE = 10
+
+# creating paddle classe with attributes
 
 
 class Paddle:
@@ -42,6 +44,8 @@ class Paddle:
         self.x = self.original_x
         self.y = self.original_y
 
+# creating ball class with attributes
+
 
 class Ball:
     MAX_VEL = 5
@@ -67,6 +71,8 @@ class Ball:
         self.y_vel = 0
         self.x_vel *= -1
 
+# function to draw the objects
+
 
 def draw(win, paddles, ball, left_score, right_score):
     win.fill(BLACK)
@@ -87,6 +93,8 @@ def draw(win, paddles, ball, left_score, right_score):
 
     ball.draw(win)
     pygame.display.update()
+
+# function to deal with ball interaction with paddles and "floor/ceiling"
 
 
 def handle_collision(ball, left_paddle, right_paddle):
@@ -117,6 +125,8 @@ def handle_collision(ball, left_paddle, right_paddle):
                 y_vel = difference_in_y / reduction_factor
                 ball.y_vel = -1 * y_vel
 
+# key bindings for movement
+
 
 def handle_paddle_movement(keys, left_paddle, right_paddle):
     if keys[pygame.K_w] and left_paddle.y - left_paddle.VEL >= 0:
@@ -128,6 +138,8 @@ def handle_paddle_movement(keys, left_paddle, right_paddle):
         right_paddle.move(up=True)
     if keys[pygame.K_DOWN] and right_paddle.y + right_paddle.VEL + right_paddle.height <= HEIGHT:
         right_paddle.move(up=False)
+
+# main function of the game
 
 
 def main():

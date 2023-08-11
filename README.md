@@ -11,6 +11,7 @@ This is my Python portfolio using the project pyramid as a guideline for the lev
 - rock_paper_scissors.py: rock paper scissors (practice with functions, if statements, and control flow)
 - hangman.py: practice with importing module
 - hangman.py: practice with importing module
+- minesweaper.py: classic game that uses a barebones command line UI. 
 - expense tracker
 
 
