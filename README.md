@@ -15,13 +15,13 @@ This is my Python portfolio using the project pyramid as a guideline for the lev
 
 
 ## Level 2: Intermediate
-- tic-tac-toe: Game mode to allows users to play against another opponent or vs an unbeatable ai.
-- Snake Game
-- slot_machine.py: game that receives multiple inputs from the user. Taking first a deposit and allow user to play a bet on multiple lines of a random slot machine. Then keeps track of the winnings and loses. Allows user to end game and make a withdrawl. Odds and customizable. 
+- tic-tac-toe: Game mode that allows users to play against another opponent or against an unbeatable AI.
+- snake_game.py: classic game practice with Object Oriented Programming
+- slot_machine.py: a game that receives multiple inputs from the user. Taking a deposit and allowing users to play a bet on multiple lines of a random slot machine. Then keeps track of the winnings and loses. Allows users to end the game and make a withdrawal. Odds and customizable. 
 - pong.py: Classic pong game that allows two users to play. 
 - calculator.py: A useful calculator. 
 - Web Scraper
-- Note-taking app with sign up and authentication using Flask
+- Note-taking app with sign-up and authentication using Flask
 
 
 ## Level 3: Capstone
