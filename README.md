@@ -10,12 +10,11 @@ This is my Python portfolio using the project pyramid as a guideline for the lev
 - guess_number.py: number guessing game
 - rock_paper_scissors.py: rock paper scissors (practice with functions, if statements, and control flow)
 - hangman.py: practice with importing module
-- hangman.py: practice with importing module 
 - expense tracker
 
 
 ## Level 2: Intermediate
-- tic-tac-toe: Game mode that allows users to play against another opponent or against an unbeatable AI.
+- tic-tac-toe: Includes 2 game modes that allow users to either play against another opponent or against an unbeatable AI.
 - snake_game.py: classic game practice with Object Oriented Programming
 - slot_machine.py: a game that receives multiple inputs from the user. Taking a deposit and allowing users to play a bet on multiple lines of a random slot machine. Then keeps track of the winnings and loses. Allows users to end the game and make a withdrawal. Odds and customizable. 
 - pong.py: Classic pong game that allows two users to play. 
