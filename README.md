@@ -10,7 +10,6 @@ This is my Python portfolio using the project pyramid as a guideline for the lev
 - guess_number.py: number guessing game
 - rock_paper_scissors.py: rock paper scissors (practice with functions, if statements, and control flow)
 - hangman.py: practice with importing module
-- expense tracker
 
 
 ## Level 2: Intermediate
@@ -21,6 +20,7 @@ This is my Python portfolio using the project pyramid as a guideline for the lev
 - calculator.py: A useful calculator. 
 - Web Scraper
 - Note-taking app with sign-up and authentication using Flask
+- Task Master: Todo list using Flask and SQLAlchemy
 
 
 ## Level 3: Capstone
