@@ -7,6 +7,7 @@ This is my Python portfolio using the project pyramid as a guideline for the lev
 - guess_number.py: number guessing game
 - rock_paper_scissors.py: rock paper scissors (practice with functions, if statements, and control flow)
 - hangman.py: practice with importing module
+- Currency Converter shows the current exchange rate to the top 10 most traded currencies. Uses API from Forex-Python import
 
 
 ## Level 2: Intermediate
