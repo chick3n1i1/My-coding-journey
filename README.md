@@ -18,6 +18,10 @@ This is my Python portfolio using the project pyramid as a guideline for the lev
 - Task Master: Todo list using Flask and SQLAlchemy
 - Chat app: Flask and SocketIO
 - Web Scrapper
+- Automation
+    - email sender: python to send an automated email. 
+    - youtube downloader: download a youtube video as a mp4
+    - automatic file backup: create and schedule a automated back-up file
 
 ## Level 3: Capstone
 - Currency Converter with live updates
