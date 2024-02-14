@@ -2,7 +2,7 @@ from requests import get
 from pprint import PrettyPrinter
 
 BASE_URL = "https://free.currconv.com/"
-API_KEY = ""
+API_KEY = "41a36c961403e4a05504"
 
 printer = PrettyPrinter()
 
@@ -10,12 +10,21 @@ printer = PrettyPrinter()
 def get_currencies():
     endpoint = f"api/v7/currencies?apiKey={API_KEY}"
     url = BASE_URL + endpoint
-    data = get(url).json()['results']
+    response = get(url)
+    
+    if response.status_code != 200:
+        print("Error occurred while fetching currencies:", response.text)
+        return []
 
-    data = list(data.items())
-    data.sort()
+    data = response.json()
+    if 'results' in data:
+        data = list(data['results'].items())
+        data.sort()
+        return data
+    else:
+        print("Unexpected response format:", data)
+        return []
 
-    return data
 
 
 def print_currencies(currencies):
