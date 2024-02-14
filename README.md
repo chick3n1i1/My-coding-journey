@@ -18,6 +18,7 @@ This is my Python portfolio using the project pyramid as a guideline for the lev
 - Note-taking app with sign-up and authentication using Flask
 - Task Master: Todo list using Flask and SQLAlchemy
 - Chat app: Flask and SocketIO
+- Currency Converter using API
 - Web Scrapper
 - Automated tasks
     - email sender: python to send an automated email. 
@@ -25,5 +26,4 @@ This is my Python portfolio using the project pyramid as a guideline for the lev
     - scheduled file backup: create and schedule a automated back-up file
 
 ## Level 3: Capstone
-- Currency Converter with live updates
 - Crypto Tracker
