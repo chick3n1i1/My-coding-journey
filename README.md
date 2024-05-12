@@ -19,11 +19,10 @@ This is my Python portfolio using the project pyramid as a guideline for the lev
 - Task Master: Todo list using Flask and SQLAlchemy
 - Chat app: Flask and SocketIO
 - Currency Converter using API
-- Web Scrapper
 - Automated tasks
     - email sender: python to send an automated email. 
     - youtube downloader: download a youtube video as a mp4
     - scheduled file backup: create and schedule a automated back-up file
 
 ## Level 3: Capstone
-- Crypto Tracker
+- Puddle - Django powered eCommerce store that allows users to create an account and post listings of goods to sell. Included is a dashboard for the user to track what items they have listed. Including an Inbox for users to contact seller about products. 
