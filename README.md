@@ -25,4 +25,5 @@ This is my Python portfolio using the project pyramid as a guideline for the lev
     - scheduled file backup: create and schedule a automated back-up file
 
 ## Level 3: Capstone
-- Puddle - Django powered eCommerce store that allows users to create an account and post listings of goods to sell. Included is a dashboard for the user to track what items they have listed. Including an Inbox for users to contact seller about products. 
+- Puddle - Django powered eCommerce store that allows users to create an account and post listings of goods to sell. Included is a dashboard for the user to track what items they have listed. Including an Inbox for users to contact seller about products.
+  https://github.com/chick3n1i1/Puddle-Django-project/tree/main/django_tutorial/Puddle/puddle
